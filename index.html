@@ -1,23 +1,315 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>Assignment 2a</title>
-  </head>
-  <body>
-    <div class="bottom">
-      <a href="fancifymytext.html"><u>Go to FancifyText</u></a>
-      <br>
-  </div>
-  <br><br>
-      <h1> Scrap Tea-site </h1>
-    <p>There are different practices
-         depending on the historical context
-          you are looking at. Including <strong> infusing</strong>,
-          <a href="https://www.teaclass.com/lesson_0102.html#:~:text=All%20tea%20comes%20from%20the,look%20at%20simple%20tea%20production." 
-              title="Type of tea" target="_blank"> common tea types</a>,
-               and <strong>usage</strong>  of tea. 
-    </p>
-    <img src="https://dazedimg-dazedgroup.netdna-ssl.com/800/azure/dazed-prod/1170/8/1178438.jpg">
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Engineer Portfolio">
+    <title>Melvin Evans - Software Engineer</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f1e1;
+            /* Soft beige background */
+            color: #4b4f54;
+            /* Dark gray text for readability */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #2a3d66;
+            /* Deep blue */
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            border-bottom: 4px solid #9b7f62;
+            /* Warm brown accent line */
+        }
+
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: #e6e6e6;
+            /* Light gray text */
+        }
+
+        .connect-links {
+            margin-top: 20px;
+        }
+
+        .connect-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .connect-links a:hover {
+            color: #020005; 
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 0;
+        }
+
+        section h2 {
+            font-size: 2.2rem;
+            color: #2a3d66;
+            /* Deep blue for section titles */
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            
+        }
+
+        /* Certification List */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        section#about .about-text{
+            padding-left: 20px;
+            background-color: #f2f0e6;
+            /* Light beige background for work section */
+            border-radius: 8px;
+            margin-top: 20px;
+    
+            padding: 15px;
+            border-left: 4px solid #9b7f62;
+            /* Warm brown left border */
+        }
+
+        /* Work Experience Section */
+        section#work ul {
+            padding-left: 20px;
+            background-color: #f2f0e6;
+            /* Light beige background for work section */
+            border-radius: 8px;
+            margin-top: 20px;
+            padding: 15px;
+            border-left: 4px solid #9b7f62;
+            /* Warm brown left border */
+        }
+
+        section#work li {
+            font-size: 1rem;
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+
+        /* Projects Section */
+        section#projects ul {
+            padding-left: 20px;
+            background-color: #f2f0e6;
+            /* Light beige background for work section */
+            border-radius: 8px;
+            margin-top: 20px;
+            padding: 15px;
+            border-left: 4px solid #9b7f62;
+            /* Warm brown left border */
+        }
+
+        section#projects li {
+            font-size: 1rem;
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #2a3d66;
+            /* Muted dark blue-gray */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            border-top: 4px solid #9b7f62;
+            /* Warm brown accent line */
+        }
+
+
+        /* Accent Hover Effect */
+        a {
+            color: #4b4f54;
+            /* Warm brown accent */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #2a3d66;
+            /* Deep blue on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Melvin Evans</h1>
+            <p>Software Engineer | Web Developer</p>
+            <div class="connect-links">
+                <a href="mailto:melvin.evans.iv.99@gmail.com" target="_blank">Email</a>
+                <a href="https://www.linkedin.com/in/melvin-evans-067a65205/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/MelvinE1999" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-text">
+            <p>I’m a software engineer with a passion for building technology that makes a difference. With a strong background in
+            computer science and expertise in full-stack web development. </p>
+            
+            <p>My technical toolkit includes Python, JavaScript, Node.js, and Django, and I am committed to using these tools to create
+            inclusive, scalable systems that put people first. I believe in the power of software to bridge gaps, whether it’s by
+            providing critical services, increasing accessibility, or offering innovative solutions to everyday challenges.</p>
+            
+
+            <p>Ultimately, my goal is to work on projects that have a meaningful impact—projects that not only fulfill user needs but
+            also contribute to a more equitable and inclusive tech ecosystem. I’m motivated by the opportunity to create software
+            that empowers people, uplifts communities, and fosters positive change.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <div class="container">
+            <h2>Hobbies</h2>
+            <ul>
+                <li><strong>Reading books</strong> - I read a mixture of just about anything but absolutley love Science Fiction or Fantasy books.</li>
+                <li><strong>Playing video games</strong> - Always down to play an FPS or a strategy game when I have time.</li>
+                <li><strong>Board games</strong> - Enjoys spending time with friends over a game of just about any board game especially Monopoly or Coup.</li>
+                <li><strong>Cooking</strong> - Experimenting with new recipes and cuisines is always a thing for me.</li>
+                <li><strong>Baking</strong> - Recently I got into making my own sourdough starter and now I am obsessed with creating any and everything with it.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>California State University, Sacramento</strong> — Major: Computer Science (Aug 2017 – Dec 2022)
+            </p>
+            <p><strong>Relevant Courses:</strong> Computer Software Engineering, Advanced Algorithm Design, Web
+                Programming, Database Management, Linear Algebra, etc.</p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>AWS Cloud Practitioner</strong> – AWS</li>
+                <li><strong>Google IT Support</strong> – Coursera</li>
+                <li><strong>Meta Backe-End Developer</strong> – Coursera</li>
+                <li><strong>AWS Fundamentals</strong> – Coursera</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <p><strong>Programming Languages:</strong> Java, Python, JavaScript, MySQL, HTML/CSS</p>
+            <p><strong>Frameworks & Libraries:</strong> Node.js, Express, Django, Bootstrap, Djoser, Django Rest Framework, JQuery</p>
+            <p><strong>Cloud & DevOps:</strong> EC2, S3, RDS, Lambda, IAM,AWS Elastic Beanstalk, CloudFormation, AWS CLI</p>
+            <p><strong>Tools:</strong> Git, Jira, Heroku, Visual Studio Code</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+    
+            <p><a href="https://github.com/MelvinE1999/book" target="_blank"><strong>Book Tracker Website</strong> (Jul 2023 – Present)</a></p>
+            <ul>
+                <li></li>
+                <li>This project involves creating a web-based book tracking system for a client, aimed at reducing their reliance on
+                multiple software tools and cutting costs by 66%. I am developing the application using Python, JavaScript, HTML, and
+                Django, while collaborating with the client to iterate on features and gather feedback. The project allows me to enhance
+                my skills in full-stack development, cloud deployment with Heroku, and project management using Git and Jira.</li>
+            </ul>
+            <br>
+    
+            <p><a href="https://github.com/mseliuzhytski/Bit-by-Bit-Senior-Project" target="_blank"><strong>Senior Project - Okaidi Auto Sales Website</strong> (Jan 2022 – Dec 2022)</a></p>
+            <ul>
+                <li>In this team project, we built a website for a used car dealership, reducing operational costs by 13%. I was responsible
+                for creating backend systems using Python, MySQL, Node.js, and AWS. While ensuring smooth communication between the frontend and
+                backend through middleware. We worked collaboratively across remote channels like Git and Jira, and our team
+                successfully delivered the project on time with positive client feedback.</li>
+            </ul>
+            <br>
+    
+            <p><a href="https://github.com/MelvinE1999/SacStateWebsite" target="_blank"><strong>UTAPS Freshman Seminar Website for Sac State</strong> (Aug 2020 – Dec 2020)</a></p>
+            <ul>
+                <li>As part of a six-person team, I helped develop a digital replacement for the UTAPS freshman seminar website presentation
+                at Sacramento State. We utilized Flask and Google APIs to build a user-friendly interface for visualizing transportation
+                emissions, making it more accessible and engaging for new students. This project improved my understanding of the
+                V-Model development process and experience with handling CSV files and data processing.</li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <p><strong>Box Lunch - Lead Merchandiser</strong> (Aug 2024 – Present)</p>
+            <ul>
+                <li>As Lead Merchandiser, I am responsible for organizing product displays in a way that enhances customer experience and
+                drives sales. I work closely with the team to ensure that the store is fully stocked and that the products are presented
+                attractively, all while adhering to company guidelines. This role has helped me refine my ability to communicate
+                effectively and work in a fast-paced, team-oriented environment.</li>
+            </ul>
+            <br>
+            <p><strong>Box Lunch - Sales Associate</strong> (Sep 2023 – Aug 2024)</p>
+            <ul>
+                <li>In my role as a Sales Associate, I contributed to sales by providing excellent customer service and assisting shoppers
+                in finding the products they needed. I gained valuable experience in sales, customer support, and adaptability by
+                working in a dynamic retail environment, while also ensuring the store remained clean, organized, and fully stocked.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            
+        </div>
+    </footer>
+</body>
+
 </html>
